@@ -5,17 +5,19 @@
 #### Java, Maven:
 
 - JAVA 11 - temurin Eclipse Temurin 11.0.17
-- Maven 3.8.4
-- Allure 2.2.0 (refer to next section)
+- Maven 3.8.6
+- REST-Assured 5.3.0
+- JUnit5 5.9.0
+- Allure 2.2.1 (refer to next section)
 
 ### Test Framework:
-#### JUnit5
+#### JUnit5 
 
 ### Test reports with Allure
 
 #### Allure Documentation: [Allure](https://docs.qameta.io/allure/#_about)
 
-#### Install Allure version 2.20.0: [Allure version 2.20.](https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.20.0/)
+#### Install Allure version 2.20.1: [Allure version 2.20.1](https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.20.1/)
 
 #### Allure Installation Steps:
 
