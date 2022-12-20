@@ -2,7 +2,7 @@
 
 ### Project Configuration:
 
-#### Java, Maven:
+#### Java, Maven, REST-Assured, JUnit5, Reporting Plugin:
 
 - JAVA 11 - temurin Eclipse Temurin 11.0.17
 - Maven 3.8.6
