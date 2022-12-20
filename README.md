@@ -1,5 +1,9 @@
 ## REST-Assured Template project
 
+### Test Framework:
+**JUnit5**
+
+
 ### Project Configuration:
 
 #### Java, Maven, REST-Assured, JUnit5, Reporting Plugin:
@@ -8,42 +12,19 @@
 - Maven 3.8.6
 - REST-Assured 5.3.0
 - JUnit5 5.9.0
-- Allure 2.2.1 (refer to next section)
+- Surefire Report Plugin (refer to next section)
 
-### Test Framework:
-#### JUnit5 
 
-### Test reports with Allure
+### Test reports with Maven Surefire Report Plugin
 
-#### Allure Documentation: [Allure](https://docs.qameta.io/allure/#_about)
+#### Documentation: [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/)
 
-#### Install Allure version 2.20.1: [Allure version 2.20.1](https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.20.1/)
+#### Test reporting: [Surefire Report](https://maven.apache.org/surefire/maven-surefire-report-plugin/)
 
-#### Allure Installation Steps:
+#### Running HTML Report:
 
-- Download the zip
-- Extract zip and name it as: allure-commandline
-- Put the folder to program files directory
-- Execute bat script in /bin folder
-- Add path variable to /bin folder
-- Check version in CMD:
-- $ allure --version
+**$ mvn site**
 
-#### Test reporting:
+#### Report location:
 
-$ mvn clean test
-
-#### Generate HTML raport:
-
-$ allure serve target/allure-results
-
-### Allure annotations:
-
-- @Epic
-- @Features
-- @Stories/@Story
-- @Severity(SeverityLevel.BLOCKER)
-- @Description("In this cool test we will check cool thing")
-- @Step
-- @Attachment
-- @Link
+**${basedir}/target/site/surefire-report.html**
